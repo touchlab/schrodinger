@@ -4,4 +4,4 @@ author: 'Touchlab'
 
 runs:
   using: 'docker'
-  image: 'kpgalligan/schrodinger:0.2'
+  image: 'docker://kpgalligan/schrodinger:0.2'
