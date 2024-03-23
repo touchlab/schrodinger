@@ -1,0 +1,7 @@
+name: 'Schrodinger'
+description: 'Cat-related'
+author: 'Touchlab'
+
+runs:
+  using: 'docker'
+  image: 'kpgalligan/schrodinger:0.2'
