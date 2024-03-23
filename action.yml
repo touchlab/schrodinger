@@ -1,7 +1,14 @@
 name: 'Schrodinger'
 description: 'Cat-related'
 author: 'Touchlab'
-
+inputs:
+  sshPrivateKey:
+    description: 'Private SSH key to register in the SSH agent'
+    required: true
+  kmpModules:
+    description: 'List of KMP modules to monitor, comma separated'
+    required: true
+    
 runs:
   using: 'docker'
   image: 'docker://kpgalligan/schrodinger:0.3'
